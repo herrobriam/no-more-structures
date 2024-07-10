@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "no-more-structures",
+	"version": "${version}",
+	"name": "No More Structures: Essentials",
+	"description": "Removes all structures, except the Stronghold, Nether Fortress and End Cities.",
+	"authors": [
+		"herrobriam"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/no-more-structures/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.herrobriam.nostructures.NoMoreStructures"
+		],
+		"fabric-datagen": [
+			"net.herrobriam.nostructures.NoMoreStructuresDataGenerator"
+		]
+	},
+	"mixins": [
+		"no-more-structures.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": ">=1.18.2",
+		"java": ">=17"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
