@@ -8,8 +8,8 @@
 		"herrobriam"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/no-more-structures-essential",
+		"sources": "https://github.com/herrobriam/no-more-structures"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/no-more-structures/icon.png",
